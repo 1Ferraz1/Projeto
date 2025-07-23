@@ -29,7 +29,7 @@ Cypress version: 14.5.2
 - Então a mensagem "Epic sadface: Username and password do not match any user in this service" deve ser visível
 
 
-✅ Cenário: Acesso com usuario bloqueado
+✅ Cenário: Acesso com usuário bloqueado
 
 - Dado que estou na página de login do SauceDemo
 
@@ -40,7 +40,7 @@ Cypress version: 14.5.2
 - Então a mensagem "Epic sadface: Sorry, this user has been locked out." deve ser visível
 
 
-✅ Cenário: Acesso com usuario em letras maiusculas
+✅ Cenário: Acesso com usuário em letras maiúsculas
 
 - Dado que estou na página de login do SauceDemo
 
@@ -64,9 +64,9 @@ Cypress version: 14.5.2
 
 - E clico no ícone do carrinho
 
-- Então tenho que e ser direcionado a pagina do carrinho
+- Então tenho que ser direcionado à página do carrinho
 
-- E o contador de intens no carrinho deve mostrar "2"
+- E o contador de itens no carrinho deve mostrar "2"
 
 - Quando eu removo o item "Sauce Labs Bolt T-Shirt" do carrinho
 
@@ -83,7 +83,7 @@ Cypress version: 14.5.2
 
 - E clico no botão "Checkout"
 
-- Então uma mensagem de erro informando que não possuo intens no carrinho deve ser exibida
+- Então uma mensagem de erro informando que não possuo itens no carrinho deve ser exibida
 
 
 
@@ -126,7 +126,7 @@ Cypress version: 14.5.2
 
 - Então tenho que e ser direcionado a pagina do carrinho
 
-- E o contador de intens no carrinho deve mostrar "2"
+- E o contador de itens no carrinho deve mostrar "2"
 
 - Quando clico no botão "Checkout"
 
@@ -191,7 +191,7 @@ Cypress version: 14.5.2
 
 - E preencho o campo "First Name" com "test"
 
-- E preencho o campo "Last Namee" com "test"
+- E preencho o campo "Last Name" com "test"
 
 - E o campo "Postal Code" está vazio
 
