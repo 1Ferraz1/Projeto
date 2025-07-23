@@ -52,7 +52,7 @@ Cypress version: 14.5.2
 - Então a mensagem "Epic sadface: Username and password do not match any user in this service" deve ser visível
 
 
-🛒Cenário 2: Simulação de compra 
+🛒 Cenário 2: Simulação de compra 
 
 
 ✅ Cenário: Adicionar e remover produtos do carrinho
@@ -101,7 +101,7 @@ Cypress version: 14.5.2
 
 - E clico no ícone do carrinho
 
-- Então tenho que ser direcionado a pagina do carrinho
+- Então tenho que ser direcionado à página do carrinho
 
 - Quando clico no botão "Checkout"
 
@@ -127,7 +127,7 @@ Cypress version: 14.5.2
 
 - E clico no ícone do carrinho
 
-- Então tenho que ser direcionado a pagina do carrinho
+- Então tenho que ser direcionado à página do carrinho
 
 - E o contador de itens no carrinho deve mostrar "2"
 
