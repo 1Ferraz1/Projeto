@@ -18,6 +18,7 @@ Cypress version: 14.5.2
 
 - E o título "Products" deve ser visível
 
+
 ✅ Cenário: Acesso com credenciais incorretas
 
 - Dado que estou na página de login do SauceDemo
@@ -53,10 +54,12 @@ Cypress version: 14.5.2
 
 🛒Cenário 2: Simulação de compra 
 
+
 ✅ Cenário: Adicionar e remover produtos do carrinho
+
 - Dado que estou logado no sistema
 
-- E estou na pagina de produtos
+- E estou na página de produtos
 
 - Quando eu adiciono "Sauce Labs Backpack" ao carrinho a partir da página inicial
 
@@ -77,7 +80,7 @@ Cypress version: 14.5.2
 
 - Dado que estou logado no sistema
 
-- E estou na pagina de produtos
+- E estou na página de produtos
 
 - Quando eu clico no ícone do carrinho
 
@@ -86,12 +89,11 @@ Cypress version: 14.5.2
 - Então uma mensagem de erro informando que não possuo itens no carrinho deve ser exibida
 
 
-
 ✅ Cenário: Cancelar compra na opção "Cancel"
 
 - Dado que estou logado no sistema
 
-- E estou na pagina de produtos
+- E estou na página de produtos
 
 - Quando eu adiciono "Sauce Labs Backpack" ao carrinho a partir da página inicial
 
@@ -99,24 +101,25 @@ Cypress version: 14.5.2
 
 - E clico no ícone do carrinho
 
-- Então tenho que e ser direcionado a pagina do carrinho
+- Então tenho que ser direcionado a pagina do carrinho
 
 - Quando clico no botão "Checkout"
 
 - E clico no botão "Cancel"
 
-- Então devo retornar a pagina do carrinho
+- Então devo retornar à página do carrinho
 
 - E o carrinho deve continuar mostrando 2 itens
 
 
 💰 Cenário 2: Realizar compra 
 
-✅ Cenario: Adicionar produtos ao carrinho e finalizar a compra
+
+✅ Cenário: Adicionar produtos ao carrinho e finalizar a compra
 
 - Dado que estou logado no sistema
 
-- E estou na pagina de produtos
+- E estou na página de produtos
 
 - Quando eu adiciono "Sauce Labs Backpack" ao carrinho a partir da página inicial
 
@@ -124,7 +127,7 @@ Cypress version: 14.5.2
 
 - E clico no ícone do carrinho
 
-- Então tenho que e ser direcionado a pagina do carrinho
+- Então tenho que ser direcionado a pagina do carrinho
 
 - E o contador de itens no carrinho deve mostrar "2"
 
@@ -143,11 +146,11 @@ Cypress version: 14.5.2
 - Então uma mensagem de sucesso da compra deve ser exibida ("Thank you for your order!")
 
 
-✅ Cenario: Não preenchimento do campo First Name
+✅ Cenário: Não preenchimento do campo First Name
 
 - Dado que estou logado no sistema
 
-- E estou na pagina do carrinho de compras
+- E estou na página do carrinho de compras
 
 - E clico no botão "Checkout"
 
@@ -162,11 +165,11 @@ Cypress version: 14.5.2
 - Então uma mensagem de erro "Error: First Name is required" deve ser exibida
 
 
-✅ Cenario: Não preenchimento do campo Last Name
+✅ Cenário: Não preenchimento do campo Last Name
 
 - Dado que estou logado no sistema
 
-- E estou na pagina do carrinho de compras
+- E estou na página do carrinho de compras
 
 - E clico no botão "Checkout"
 
@@ -181,11 +184,11 @@ Cypress version: 14.5.2
 - Então uma mensagem de erro "Error: Last Name is required" deve ser exibida
 
 
-✅ Cenario: Não preenchimento do campo Postal Code
+✅ Cenário: Não preenchimento do campo Postal Code
 
 - Dado que estou logado no sistema
 
-- E estou na pagina do carrinho de compras
+- E estou na página do carrinho de compras
 
 - E clico no botão "Checkout"
 
